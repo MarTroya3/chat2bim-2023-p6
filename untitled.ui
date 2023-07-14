@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="MARLYNTROYA">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -23,8 +23,17 @@
       <height>81</height>
      </rect>
     </property>
+    <property name="maximumSize">
+     <size>
+      <width>331</width>
+      <height>81</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>MARLYN TROYA</string>
     </property>
    </widget>
   </widget>
@@ -34,12 +43,15 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>22</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <tabstops>
+  <tabstop>MARLYNTROYA</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>
